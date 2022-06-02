@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foodbae"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:10:5-69
+16-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:10:22-66
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:12:5-54:19
+27        android:allowBackup="true"
+27-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:13:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:14:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:15:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:16:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:17:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme.NoActionBar" >
+35-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:18:9-52
+36        <activity android:name="com.example.foodbae.IndiaActivity" />
+36-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:19:9-60
+36-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:19:19-48
+37        <activity android:name="com.example.foodbae.AustraliaActivity" />
+37-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:20:9-55
+37-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:20:19-52
+38        <activity android:name="com.example.foodbae.NandosActivity" />
+38-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:21:9-52
+38-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:21:19-49
+39        <activity android:name="com.example.foodbae.NotificationActivity" />
+39-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:22:9-58
+39-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:22:19-55
+40        <activity android:name="com.example.foodbae.AuntdaisyActivity" />
+40-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:23:9-55
+40-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:23:19-52
+41        <activity android:name="com.example.foodbae.ypp" />
+41-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:24:9-41
+41-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:24:19-38
+42        <activity android:name="com.example.foodbae.camera" />
+42-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:25:9-44
+42-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:25:19-41
+43        <!--
+44             The API key for Google Maps-based APIs is defined as a string resource.
+45             (See the file "res/values/google_maps_api.xml").
+46             Note that the API key is linked to the encryption key used to sign the APK.
+47             You need a different API key for each encryption key, including the release key that is used to
+48             sign the APK for publishing.
+49             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+50        -->
+51        <meta-data
+51-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:34:9-36:55
+52            android:name="com.google.android.geo.API_KEY"
+52-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:35:13-58
+53            android:value="@string/google_maps_key" />
+53-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:36:13-52
+54
+55        <activity
+55-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:38:9-40:59
+56            android:name="com.example.foodbae.MapsActivity"
+56-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:39:13-41
+57            android:label="@string/title_activity_maps" />
+57-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:40:13-56
+58        <activity
+58-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:41:9-44:59
+59            android:name="com.example.foodbae.nav"
+59-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:42:13-32
+60            android:label="@string/title_activity_nav"
+60-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:43:13-55
+61            android:theme="@style/AppTheme.NoActionBar" />
+61-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:44:13-56
+62        <activity android:name="com.example.foodbae.registration" />
+62-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:45:9-50
+62-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:45:19-47
+63        <activity android:name="com.example.foodbae.login" />
+63-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:46:9-43
+63-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:46:19-40
+64        <activity android:name="com.example.foodbae.MainActivity" >
+64-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:47:9-53:20
+64-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:47:19-47
+65            <intent-filter>
+65-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:48:13-52:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:49:17-69
+66-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:49:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:51:17-77
+68-->C:\Users\Student\Desktop\FoodBae\app\src\main\AndroidManifest.xml:51:27-74
+69            </intent-filter>
+70        </activity>
+71        <!-- Needs to be explicitly declared on P+ -->
+72        <uses-library
+72-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+73            android:name="org.apache.http.legacy"
+73-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+74            android:required="false" />
+74-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\40c041388816c0f238d9276e800f6ea9\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\993162ef7e4745950f8b81763eb9dbd4\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\993162ef7e4745950f8b81763eb9dbd4\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\993162ef7e4745950f8b81763eb9dbd4\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\993162ef7e4745950f8b81763eb9dbd4\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\4acb1c42ec9db7555ea896ca699efe19\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\4acb1c42ec9db7555ea896ca699efe19\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\4acb1c42ec9db7555ea896ca699efe19\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+84
+85        <provider
+85-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+86            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+87            android:authorities="com.example.foodbae.lifecycle-process"
+87-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+88            android:exported="false"
+88-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+89            android:multiprocess="true" />
+89-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+90    </application>
+91
+92</manifest>

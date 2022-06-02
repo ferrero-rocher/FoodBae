@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ypp">
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:text="Why Food Ninja?"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        app:srcCompat="@drawable/icon" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="30dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="400dp"
+        android:text="FoodNinja is perfect and must have travel companion that can help you find restaurents when you need them the most. Using this app, user can select restaurents from a wide range of outlet and choose their favourite dish without paying extra cost." />
+
+
+</RelativeLayout>
